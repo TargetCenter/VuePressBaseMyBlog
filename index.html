@@ -1,100 +1,477 @@
-<!DOCTYPE HTML>
-<html>
-
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="zh">
 <head>
-	<title>Home</title>
-	<!-- Meta tag Keywords -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8" />
-	<meta name="keywords" content=""
-	/>
-	<script>
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
-
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
-	</script>
-	<!-- Meta tag Keywords -->
-	<!-- css files -->
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-	<!-- Style-CSS -->
-	<link rel="stylesheet" href="css/fontawesome-all.css">
-	<!-- Font-Awesome-Icons-CSS -->
-	<!-- //css files -->
-	<!-- web-fonts -->
-	<link href="http://maxcdn.bootstrapcdn.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-	<link href="http://maxcdn.bootstrapcdn.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-	<!-- //web-fonts -->
+<title>个人简历</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+<link href="css/owl.theme.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<link rel="stylesheet" href="css/main.css">
+<script type="text/javascript" src="js/main.js"></script>
+<script>
+$(document).ready(function() { 
+	$("#owl-demo").owlCarousel({
+ 
+		autoPlay: 3000,
+		autoPlay:true,
+		items : 3,
+		itemsDesktop : [640,5],
+		itemsDesktopSmall : [414,4]
+ 
+	});
+	
+}); 
+</script>
 </head>
-
 <body>
-	<!-- bg effect -->
-	<div id="bg">
-		<canvas></canvas>
-		<canvas></canvas>
-		<canvas></canvas>
-	</div>
-	<!-- //bg effect -->
-	<!-- title -->
-	<h1>欢迎登入</h1>
-	<!-- //title -->
-	<!-- content -->
-	<div class="sub-main-w3">
-		<form action="#" method="post">
-			<h2>现在登入
-				<i class="fas fa-level-down-alt"></i>
-			</h2>
-			<div class="form-style-agile">
-				<label>
-					<i class="fas fa-user"></i>
-					用户名
-				</label>
-				<input placeholder="Username" name="Name" type="text" required="required">
+	<!-- banner -->
+	<div class="banner" id="home">
+		<!-- menu -->
+			<div id="toggle_m_nav">
+			  <div id="m_nav_menu" class="m_nav">
+				<div class="m_nav_ham" id="m_ham_1"></div>
+				<div class="m_nav_ham" id="m_ham_2"></div>
+				<div class="m_nav_ham" id="m_ham_3"></div>
+			  </div>
 			</div>
-			<div class="form-style-agile">
-				<label>
-					<i class="fas fa-unlock-alt"></i>
-					密码
-				</label>
-				<input placeholder="Password" name="Password" type="password" required="required">
+
+			<div id="m_nav_container" class="m_nav">
+			  <ul id="m_nav_list" class="m_nav">
+				<li class="m_nav_item" id="m_nav_item_1"> <a href="#home">主页</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_2"> <a href="#about">关于</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_3"> <a href="#statistics">个人统计</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_4"> <a href="#experience">工作案例</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_5"> <a href="#projects">项目</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_6"> <a href="#contact">联系我</a> </li>
+			  </ul>
 			</div>
-			<!-- checkbox -->
-			<div class="wthree-text">
-				<ul>
-					<li>
-						<label class="anim">
-							<input type="checkbox" class="checkbox" checked="checked">
-							<span>记住密码</span>
-						</label>
-					</li>
-					<li>
-						<a href="#">忘记密码</a>
-					</li>
-				</ul>
+		<!-- menu -->
+		<div class="container">
+			<div class="agile-logo">
+				<h1><a href="index.html">老李<span>博客</span></a></h1>
 			</div>
-			<!-- //checkbox -->
-			<input type="submit" value="登入">
-		</form>
+			<div class="w3l-banner-grids">
+				<div class="col-md-8 w3ls-banner-right">
+					<div class="banner-right-img">
+						<img src="images/1.jpg" alt="头像" />
+					</div>
+					<div class="banner-right-info">
+						<h2>学习前端两年半的个人练习生。</h2>
+						<p>大一上半学期只学习了C语言（数学还挂了），大一下半年学开始跟着大四的学哥开始学习前端。在每天的晚上学习俩小时之后，暑假没走。在学校里跟着大数据老师一块开发大型网站，用Django开发之时学习了数据库、权限管理等前后端的各种知识。并且平时接触Vue等前端框架，并且用VuePress在GitHub上搭建了一个个人博客页。</p>
+					</div>
+					<div class="clearfix"> </div>
+					<div class="w3-button">
+						<div class="w3-button-info m_nav_item">
+							<a class="hvr-sweep-to-bottom" href="#contact">联系我</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-banner-left">
+					<div class="w3ls-banner-left-info">
+						<h4>职责</h4>
+						<p>WEB开发者</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>名字</h4>
+						<p>李振席</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>性别</h4>
+						<p>男</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>住址</h4>
+						<p>GitHub</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>联系方式</h4>
+						<p><a href="zhenxiplus@qq.com">zhenxiplus@qq.com</a></p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
 	</div>
-	<!-- //content -->
-
-	<!-- copyright -->
-	<div class="footer">
-		<p>Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="https://targetcenter.github.io/VuePressBaseMyBlog/"></a></p>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="wthree-about-grids">
+				<div class="col-md-6 wthree-about-left">
+					<h3>关于我</h3>
+					<h4>学习历程</h4>
+					<p>在学习的一年半的时间内收集到了大量的学习公众号<span>前端大牛，程序员小黑等各种优秀的公众号</span>并且懂得了一个道理：一部分培训是出于商业目的，商业性很强，有能力的人平时没有时间去网上当领路人，而且面试的时候算法和数据结构很重要、底层的东西也有、操作系统是一个拉开差距的重要学科，工作的时候跟学习有着本质的区别，工作有着团队的开发规范，而不是搭鸡窝。最重要的是英语很重要。</p>
+				</div >
+				<div class="col-md-6 wthree-about-right">
+					<h3>技能</h3>
+					<div class="skills-bar">
+						<section class='bar'>
+						  <section class='wrap'>
+							<div class='wrap_right'>
+							  <div class='bar_group'>
+								<div class='bar_group__bar thin' label='jQuery' show_values='true' tooltip='true' value='243'></div>
+								<div class='bar_group__bar thin' label='AJAX' show_values='true' tooltip='true' value='235'></div>
+								<div class='bar_group__bar thin' label='js' show_values='true' tooltip='true' value='230'></div>
+								<div class='bar_group__bar thin' label='Django' show_values='true' tooltip='true' value='300'></div>
+								<div class='bar_group__bar thin' label='HTML' show_values='true' tooltip='true' value='245'></div>
+							  </div>
+							</div>
+							<div class='clear'></div>
+						  </section>
+						</section>
+					</div>
+				</div >
+				<div class="clearfix"> </div>
+			</div>
+		</div>
 	</div>
-	<!-- //copyright -->
+	<!-- //about -->
+	<!-- statistics -->
+	<div class="jarallax statistics" id="statistics">
+		<div class="container">
+			<div class="w3-agileits-statistics-heading">
+				<h3>个人统计</h3>
+			</div>
+			<div class="agile-statistics-grids">
+				<div class="col-sm-4 agile-statistics-grid">
+					<h4>1024</h4>
+					<i class="fa fa-desktop" aria-hidden="true"></i>
+					<p>项目完成数</p>
+				</div>
+				<div class="col-sm-4 agile-statistics-grid statistics-grid2">
+					<h4>2746</h4>
+					<i class="fa fa-user" aria-hidden="true"></i>
+					<p>阅读article数</p>
+				</div>
+				<div class="col-sm-4 agile-statistics-grid">
+					<h4>575</h4>
+					<i class="fa fa-trophy" aria-hidden="true"></i>
+					<p>荣誉</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<script src="js/jarallax.js"></script>
+			<script src="js/SmoothScroll.min.js"></script>
+			<script type="text/javascript">
+				/* init Jarallax */
+				$('.jarallax').jarallax({
+					speed: 0.5,
+					imgWidth: 1366,
+					imgHeight: 768
+				})
+			</script>
+		</div>
+	</div>
+	<!-- //statistics -->
+	<!-- experience -->
+	<div class="experience" id="experience">
+		<div class="container">
+			<div class="w3-agileits-statistics-heading experience-heading">
+				<h3>工作案例</h3>
+			</div>
+			<div class="w3-agile-experience-grids">
+				<div class="experience-top-grids">
+					<div class="col-md-6 experience-grid">
+						<div class="experience-grid-icon icon-left hvr-radial-out">
+							<i class="fa fa-folder-open" aria-hidden="true"></i>
+						</div>
+						<div class="experience-grid-info">
+							<h5>石油模块的专业翻译</h5>
+							<p>训练的石油行业的专业词汇的翻译。类似于有道词典网页版，
+							但是深度比有道词典深。</p>
+						</div>
+					</div>
+					<div class="col-md-6 experience-grid experience-grid1">
+						<div class="experience-grid-icon icon-left hvr-radial-out">
+							<i class="fa fa-bell" aria-hidden="true"></i>
+						</div>
+						<div class="experience-grid-info">
+							<h5>学前在线网站的制作</h5>
+							<p>制作了一个在线的学前网站，有完的用户登入登出、个人中心功能，学习的在线课程机构以及组织。还有完整的论坛功能。</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="experience-top-grids">
+					<div class="col-md-6 experience-grid experience-grid2">
+						<div class="experience-grid-icon icon-left hvr-radial-out">
+							<i class="fa fa-comments" aria-hidden="true"></i>
+						</div>
+						<div class="experience-grid-info">
+							<h5>基于Node.js的聊天室</h5>
+							<p>一个客户端、一个服务端实现即时通讯。网上随便学的一个项目。</p>
+						</div>
+					</div>
+					<div class="col-md-6 experience-grid experience-grid3">
+						<div class="experience-grid-icon icon-left hvr-radial-out">
+							<i class="fa fa-asterisk" aria-hidden="true"></i>
+						</div>
+						<div class="experience-grid-info">
+							<h5>基于Vue的去哪网</h5>
+							<p>通过学习Vue制作了一个去哪网的Vue小项目，并且一块学会了Git的使用和企业前后天分离的经验。</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //experience -->
+	<!-- projects -->
+	<div class="projects" id="projects">
+		<div class="container">
+			<div class="w3-agileits-statistics-heading experience-heading">
+				<h3>项目</h3>
+			</div>
+		</div>
+		<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					<ul id="myTab" class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">所有</a></li>
+						<li role="presentation"><a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">移动端</a></li>
+						<li role="presentation"><a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">WEB端</a></li>
+						<li role="presentation"><a href="#painting" role="tab" id="painting-tab" data-toggle="tab" aria-controls="painting">模板</a></li>
+						<li role="presentation"><a href="#school" role="tab" id="school-tab" data-toggle="tab" aria-controls="school">别的</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p1.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p1.jpg" alt=" " class="img-responsive" />
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p2.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p2.jpg" alt=" " class="img-responsive" />
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p3.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p3.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p4.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p4.jpg" alt=" " class="img-responsive" />
+										</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p5.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p5.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p6.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p6.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p7.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p7.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p8.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p8.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p6.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p6.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p9.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p9.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p1.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p1.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p5.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p5.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p7.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p7.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p3.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p3.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p2.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p2.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p4.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p4.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p10.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p10.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="school" aria-labelledby="school-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p8.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p8.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+		</div>
+		<script src="js/jquery.tools.min.js"></script>
+			<script src="js/jquery.mobile.custom.min.js"></script>
+			<script src="js/jquery.cm-overlay.js"></script>
+			<script>
+				$(document).ready(function(){
+					$('.cm-overlay').cmOverlay();
+				});
+			</script>
 
-	<!-- Jquery -->
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<!-- //Jquery -->
-
-	<!-- effect js -->
-	<script src="js/canva_moving_effect.js"></script>
-	<!-- //effect js -->
-
-</body>
-
+	</div>
+	<!-- //projects -->
+	<!-- contact -->
+	<div class="contact" id="contact">
+		<div class="container">
+			<div class="w3-agileits-statistics-heading experience-heading">
+				<h3>联系我</h3>
+			</div>
+			<div class="contact-form">
+				<form action="#" method="post">
+					<div class="fields-grid">
+						<div class="styled-input agile-styled-input-top">
+							<input type="text" name="Full Name" required="">
+							<label>姓名</label>
+							<span></span>
+						</div>
+						<div class="styled-input agile-styled-input-top">
+							<input type="text" name="Phone" required=""> 
+							<label>电话</label>
+							<span></span>
+						</div>
+						<div class="styled-input">
+							<input type="text" name="Email" required=""> 
+							<label>邮箱</label>
+							<span></span>
+						</div> 
+						<div class="styled-input">
+							<input type="text" name="Subject" required="">
+							<label>主题</label>
+							<span></span>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="styled-input textarea-grid">
+						<textarea name="Message" required=""></textarea>
+						<label>消息</label>
+						<span></span>
+					</div>	 
+					<input type="submit" value="SEND">
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<script src="js/bars.js"></script>
+	<script src="js/owl.carousel.js"></script> 
+</body>	
 </html>
